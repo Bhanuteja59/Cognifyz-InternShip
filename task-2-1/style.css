@@ -1,0 +1,15 @@
+img{
+    height: 600px;
+    border-radius: 50px;
+    object-fit: filled;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 7%;
+    margin: 20px;
+}

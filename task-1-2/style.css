@@ -1,0 +1,70 @@
+.header{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+.title{
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.main{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 5px;
+}
+.heading{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.content{
+    padding: 8%;
+    font-size: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 10px 1px 58px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 1px 58px 2px rgba(0,0,0,0.75);
+    box-shadow: 10px 1px 58px 2px rgba(0,0,0,0.75);
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd000;
+}
+.image{
+    width: auto;
+    height: 500px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 50px;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+}
+select{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    box-sizing: border-box;
+    background-color: #2dccda;
+    font-size: 20px;
+    cursor: pointer;
+}
