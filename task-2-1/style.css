@@ -2,6 +2,9 @@ img{
     height: 600px;
     border-radius: 50px;
     object-fit: filled;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
 }
 
 .card{
@@ -12,4 +15,11 @@ img{
     gap: 20px;
     border-radius: 7%;
     margin: 20px;
+}
+
+.card-body > p ,h5  {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 40px;
 }
