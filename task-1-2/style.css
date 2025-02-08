@@ -1,70 +1,64 @@
-.header{
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    justify-content: space-around;
-}
-.title{
-    font-size: 20px;
-    margin: 0 20px;
+    font-family: Arial, sans-serif;
 }
 
-.main{
-    margin: 20px;
+body {
+    background-color: #f8f9fa;
+}
+
+.header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    border-radius: 5px;
-}
-.heading{
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-.content{
-    padding: 8%;
-    font-size: 20px;
+    padding: 15px;
+    background: linear-gradient(to right, #007BFF, #00BFFF);
+    color: white;
     border-radius: 10px;
-    box-sizing: border-box;
-    -webkit-box-shadow: 10px 1px 58px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 1px 58px 2px rgba(0,0,0,0.75);
-    box-shadow: 10px 1px 58px 2px rgba(0,0,0,0.75);
-    width: 60%;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #ffd000;
+    padding: 20px;
 }
-.image{
-    width: auto;
-    height: 500px;
-    margin: 0 auto;
-    padding: 5px;
-    border-radius: 50px;
+
+.image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
 }
-input{
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
+
+.content {
+    background: #ffd000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
     border-radius: 5px;
-    border: none;
-    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 16px;
 }
-select{
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px;
-    border: none;
-    box-sizing: border-box;
-}
-button{
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
-    box-sizing: border-box;
-    background-color: #2dccda;
-    font-size: 20px;
+
+button {
+    background: #2dccda;
+    color: white;
     cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #1fa4b1;
 }
