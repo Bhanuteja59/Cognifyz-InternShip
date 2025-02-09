@@ -9,54 +9,85 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container">   
 
-        <section class="my-5">
-            <h2 class="text-center mb-4">Developer`s page</h2>
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top header">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Developer's Page</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Updates">Updates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Programmer">Programmer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Developer">Developer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Footer">Footer</a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="https://img.freepik.com/free-photo/person-playing-3d-video-games-device_23-2151005751.jpg?semt=ais_hybrid" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://img.freepik.com/free-photo/3d-portrait-people_23-2150793856.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://t4.ftcdn.net/jpg/06/01/29/15/360_F_601291576_9vcyvR9S6YtTQjHLXsSQT25ziNUgR9Ec.jpg" class="d-block w-100" alt="...">
-                  </div>
+            </nav>
+        </header>
+        <br>
+        
+        <section>
+            <div class="header">
+                <div id="carouselExampleIndicators" class="carousel slide" id="home">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171862_l7yZ0wujj8o2SowiKTUsfLEEx8KunYNd.jpg" class="d-block w-100" alt="Best Developer 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://t3.ftcdn.net/jpg/06/00/86/26/360_F_600862676_U1qq7vSQKjghCXxz8WfNFA3VqXegARDk.jpg" class="d-block w-100" alt="Best Developer 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171867_X85WpWCcMzNsoMWtMxiZQspKzaOwCyuK.jpg" class="d-block w-100" alt="Best Developer 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+            </div>
         </section>
 
-        <section class="my-5">
+        <section class="my-5" id="Updates">
             <h2 class="text-center mb-4">Our Latest Updates</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <!-- Card 1 -->
                 <div class="col">
                     <div class="card">
                         <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="https://img.freepik.com/premium-photo/anime-programmer-working-code_1282444-261972.jpg?w=360" alt="Avatar">
-                            </figure>
+                            <img src="https://globaleducation.s3.ap-south-1.amazonaws.com/globaledu/gif/front-end-development.gif" alt="Image 1" class="image">
                         </div>
                         <div class="card-content">
                             <h3 class="title">Title 1</h3>
                             <p class="subtitle">April 01, 2016</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                            <a href="#" class="button is-link">Read More</a>
+                            <button class="btn btn-primary RM-btn"> Read more </button>
                         </div>
                     </div>
                 </div>
@@ -65,15 +96,13 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="https://img.freepik.com/premium-photo/anime-programmer-working-code_1282444-261972.jpg?w=360" alt="Avatar">
-                            </figure>
+                            <img src="https://holisitclearning.com/static/media/Front-end_Developer.8e8fc63a21e6eaa925b4.gif" alt="Image 2" class="image">
                         </div>
                         <div class="card-content">
                             <h3 class="title">Title 2</h3>
                             <p class="subtitle">April 01, 2016</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                            <a href="#" class="button is-link">Read More</a>
+                            <button class="btn btn-primary RM-btn"> Read more </button>
                         </div>
                     </div>
                 </div>
@@ -82,44 +111,77 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="https://img.freepik.com/premium-photo/anime-programmer-working-code_1282444-261972.jpg?w=360" alt="Avatar">
-                            </figure>
+                            <img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgawpa9ji5mj6dy0m3w4z.gif" alt="Image 3" class="image">
                         </div>
                         <div class="card-content">
                             <h3 class="title">Title 3</h3>
                             <p class="subtitle">April 01, 2016</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                            <a href="#" class="button is-link">Read More</a>
+                            <button class="btn btn-primary RM-btn"> Read more </button>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <hr>
+
+        <section id="page">
+            <section class="my-5" id="Programmer">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif" class="card-img-left" alt="Guide Dog Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Programmer</h5></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div>
+                            <br>
+                            <h2>Programming is thinking, not typing</h2>
+                            <br>
+                            <p>As technology has advanced, programming has evolved from typing code line by line to thinking critically about user needs, system design, and solutions.</p>
+                            <p>Today, developers focus on designing user-friendly interfaces, writing clean, maintainable code, and optimizing software for performance and scalability.</p>
+                            <p>Gone are the days when programming was a solitary activity; developers now work in teams, collaborating with designers, product managers, and stakeholders to create seamless digital experiences.</p>
+                            <br>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </section >
+    
+            <section class="my-5" id="Developer">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div>
+                            <h2>A developer is someone who writes code to solve problems</h2>
+                            <br>
+                            <p>In today's fast-paced world, developers are the backbone of technological innovation.</p>
+                            <p>They write code that powers websites, mobile apps, and complex systems.</p>
+                            <p>A developer's job goes beyond just coding; it's about understanding real-world problems and applying the right technology to create solutions that make life easier, more efficient, and enjoyable.</p>
+                            <p>From building robust applications to integrating systems, developers play a crucial role in shaping the future of the digital world.</p>
+                            <br> 
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="https://camo.githubusercontent.com/5046cb083418fd1922b7f5990e594c3bb06f5d87e5516cd8839ae0aa48b3aec4/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966" class="card-img-right" alt="Guide Dog Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Developer</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
 
-        <section class="my-5">
-            <h2 class="text-center mb-4">Card with Media</h2>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="card">
-                        <img src="https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif" class="card-img-left" alt="Guide Dog Image">
-                        <div class="card-body">
-                            <h5 class="card-title">Media Left</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <div class="card">
-                        <img src="https://i.pinimg.com/originals/2a/53/65/2a53651a35816f499270d8275fd5318f.gif" class="card-img-right" alt="Guide Dog Image">
-                        <div class="card-body">
-                            <h5 class="card-title">Media Right</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </div>
-                    </div>
-                </div>
+        <footer class="bg-dark text-white py-4" id="Footer">
+            <div class="container text-center">
+                <p> Special thnks to Cognifyz Technologies </p>
             </div>
-        </section>
+        </footer>
 
     </div>
 
