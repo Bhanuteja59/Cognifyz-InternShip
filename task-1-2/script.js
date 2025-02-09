@@ -11,12 +11,12 @@ var output = document.querySelector(".result");
 colorChange.addEventListener("click", () => {
     let currentBgColor = window.getComputedStyle(body).backgroundColor;
 
-    if (currentBgColor === "rgb(0, 0, 0)") { // Black in RGB
+    if (currentBgColor === "rgb(128, 128, 128)") {
         body.style.backgroundColor = "white";
-        body.style.color = "black";
+        body.style.color = "grey";
         colorChange.innerHTML = "Dark Mode";
     } else {
-        body.style.backgroundColor = "black";
+        body.style.backgroundColor = "grey";
         body.style.color = "white";
         colorChange.innerHTML = "Light Mode";
     }
@@ -66,5 +66,5 @@ submit.addEventListener("click", () => {
             result = "Invalid operation";
     }
 
-    output.innerHTML = `Result: ${result}`;
+    output.innerHTML = `${result}`;
 });
