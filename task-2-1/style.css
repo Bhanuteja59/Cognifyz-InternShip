@@ -1,10 +1,5 @@
-img{
-    height: 600px;
-    border-radius: 50px;
-    object-fit: filled;
-    width: 90%;
-    padding: 10px;
-    margin: 10px;
+*{
+    scroll-behavior: smooth;
 }
 
 .card{
@@ -17,9 +12,29 @@ img{
     margin: 20px;
 }
 
+.carousel-item{
+    border-radius: 5px;
+    object-fit: fill;
+}
+
+.RM-btn{
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin:auto 80px;
+}
+
+.image{
+    height: 200px;
+}
+
 .card-body > p ,h5  {
     justify-content: center;
     align-items: center;
     display: flex;
     margin-left: 40px;
+}
+
+.card-image > img {
+    object-fit: fill;
 }
