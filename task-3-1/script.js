@@ -14,7 +14,7 @@ inputImg.addEventListener("change", (e) => {
 
     reader.onload = function(event) {
         img.src = event.target.result;
-        resetTransform(); // Reset transformations when a new image is uploaded
+        resetTransform(); 
     }
 
     reader.readAsDataURL(file); 
@@ -31,7 +31,7 @@ submit.addEventListener("click", () => {
             flipX *= -1;
             break;
         case "skew":
-            skewX = skewX === 0 ? 45 : 0; // Toggle skew between 0 and 45 degrees
+            skewX = skewX === 0 ? 45 : 0;
             break;
         default:
             alert("Please select an option");
