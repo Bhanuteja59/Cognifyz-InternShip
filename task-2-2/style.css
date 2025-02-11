@@ -1,10 +1,11 @@
-
+/* General Styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
+/* Header Styles */
 header {
     position: sticky;
     top: 0;
@@ -49,6 +50,7 @@ nav {
     cursor: pointer;
 }
 
+/* Main Content Styles */
 .container {
     padding: 20px;
 }
@@ -116,6 +118,7 @@ button:hover {
     background-color: #a34a4a;
 }
 
+/* Footer Styles */
 footer {
     background-color: #333;
     color: white;
@@ -123,6 +126,7 @@ footer {
     text-align: center;
 }
 
+/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
